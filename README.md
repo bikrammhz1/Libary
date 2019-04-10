@@ -14,21 +14,21 @@
 	}
 	
 # Usage
-	# # For Log
-	    LogDeb.ToastLong(this,"HI");
+	 For Log
+	   LogDeb.ToastLong(this,"HI");
 	  
-	## For Toast 
-	    Toasty.ToastLong(this,"hello");
-       	    Toasty.ToastShort(this,"hello");
+	 For Toast 
+	   Toasty.ToastLong(this,"hello");
+       	   Toasty.ToastShort(this,"hello");
 	    
-	## SnackBar
-	    SnackBar.show(this,"LENGTH_LONG", Duration.LENGTH_LONG);
-            SnackBar.show(this,"LENGTH_SHORT", Duration.LENGTH_SHORT);
-            SnackBar.show(this,"LENGTH_INDEFINITE", Duration.LENGTH_INDEFINITE);
+	 SnackBar
+	   SnackBar.show(this,"LENGTH_LONG", Duration.LENGTH_LONG);
+           SnackBar.show(this,"LENGTH_SHORT", Duration.LENGTH_SHORT);
+           SnackBar.show(this,"LENGTH_INDEFINITE", Duration.LENGTH_INDEFINITE);
 	    
-	## Show Dialog    
-            DialogAnimation.successDialog(this,true,"#3d3123","Button Text", "Message",R.drawable.ic_circle);
+	 Show Dialog    
+           DialogAnimation.successDialog(this,true,"#3d3123","Button Text", "Message",R.drawable.ic_circle);
 	    
-	## Error Dialog
-	     DialogAnimation.errorDialog(this,true,"#3d3123","Button Text", "Message",R.drawable.ic_circle);
+	 Error Dialog
+	   DialogAnimation.errorDialog(this,true,"#3d3123","Button Text", "Message",R.drawable.ic_circle);
 	
