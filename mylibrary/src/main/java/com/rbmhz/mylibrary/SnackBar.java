@@ -6,19 +6,26 @@ import android.view.View;
 
 public class SnackBar {
 
-    public static void show(String msg,  Activity c) {
+    public static void show(Activity c, String msg, Duration anDuration) {
 
         View view = c.findViewById(android.R.id.content);
-        Snackbar snackbar = Snackbar
-                .make(view, msg, Snackbar.LENGTH_SHORT);
-//                .setAction("UNDO", new View.OnClickListener() {
-//                    @Override
-//                    public void onClick(View view) {
-//                        Snackbar snackbar1 = Snackbar.make(coordinatorLayout,
-//                                "Message is restored!", Snackbar.LENGTH_SHORT);
-//                        snackbar1.show();
-//                    }
-//                });
+        final Snackbar snackbar;
+
+        if (anDuration.equals(Duration.LENGTH_SHORT)) {
+            snackbar = Snackbar.make(view, msg, Snackbar.LENGTH_SHORT);
+
+        } else if (anDuration.equals(Duration.LENGTH_LONG)) {
+            snackbar = Snackbar.make(view, msg, Snackbar.LENGTH_LONG);
+
+        } else {
+            snackbar = Snackbar.make(view, msg, Snackbar.LENGTH_INDEFINITE);
+            snackbar.setAction("Dismiss", new View.OnClickListener() {
+                @Override
+                public void onClick(View view) {
+                    snackbar.dismiss();
+                }
+            });
+        }
 
         snackbar.show();
 

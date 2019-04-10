@@ -1,5 +1,5 @@
 package com.rbmhz.mylibrary;
 
-public enum Enum {
+public enum Duration {
     LENGTH_LONG, LENGTH_SHORT, LENGTH_INDEFINITE
 }

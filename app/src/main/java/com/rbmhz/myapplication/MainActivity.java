@@ -4,6 +4,7 @@ import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
+import com.rbmhz.mylibrary.DialogAnimation;
 import com.rbmhz.mylibrary.LogDeb;
 
 public class MainActivity extends AppCompatActivity {
@@ -14,7 +15,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         LogDeb.d(MainActivity.this,"nepal");
-        startActivity(new Intent(this,MainActivity2.class));
+        DialogAnimation.successDialog(this,"Success");
 
     }
 }
