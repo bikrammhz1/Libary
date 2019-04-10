@@ -14,7 +14,7 @@
 	}
 	
 # Usage
-	## For Log
+	# # For Log
 	    LogDeb.ToastLong(this,"HI");
 	  
 	## For Toast 
