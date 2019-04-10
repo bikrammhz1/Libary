@@ -14,22 +14,22 @@
 	}
 	
 # Usage
-	 For Log
-           LogDeb.d(this,"nepal");
-           LogDeb.d("TAG","nepal");
+For Log
+  LogDeb.d(this,"nepal");
+  LogDeb.d("TAG","nepal");
 	  
-	 For Toast 
-	   Toasty.ToastLong(this,"hello");
-       	   Toasty.ToastShort(this,"hello");
+For Toast 
+  Toasty.ToastLong(this,"hello");
+  Toasty.ToastShort(this,"hello");
 	    
-	 SnackBar
-	   SnackBar.show(this,"LENGTH_LONG_MESSAGE", Duration.LENGTH_LONG);
-           SnackBar.show(this,"LENGTH_SHORT_MESSAGE", Duration.LENGTH_SHORT);
-           SnackBar.show(this,"LENGTH_INDEFINITE_MESSAGE", Duration.LENGTH_INDEFINITE);
+SnackBar
+  SnackBar.show(this,"LENGTH_LONG_MESSAGE", Duration.LENGTH_LONG);
+  SnackBar.show(this,"LENGTH_SHORT_MESSAGE", Duration.LENGTH_SHORT);
+  SnackBar.show(this,"LENGTH_INDEFINITE_MESSAGE", Duration.LENGTH_INDEFINITE);
 	    
-	 Show Dialog    
-           DialogAnimation.successDialog(this,true,"#3d3123","Button Text", "Message",R.drawable.ic_circle);
+Show Dialog    
+  DialogAnimation.successDialog(this,true,"#3d3123","Button Text", "Message",R.drawable.ic_circle);
 	    
-	 Error Dialog
-	   DialogAnimation.errorDialog(this,true,"#3d3123","Button Text", "Message",R.drawable.ic_circle);
+Error Dialog
+  DialogAnimation.errorDialog(this,true,"#3d3123","Button Text", "Message",R.drawable.ic_circle);
 	
