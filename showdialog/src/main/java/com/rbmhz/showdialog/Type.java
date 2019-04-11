@@ -1,4 +1,4 @@
-package com.rbmhz.mylibrary;
+package com.rbmhz.showdialog;
 
 public enum Type {
     HORIZONTAL, SPINNER

@@ -1,0 +1,72 @@
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="350dp"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:background="#ffffffff"
+    android:orientation="vertical"
+    app:cardCornerRadius="0dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/ln_title"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:background="#f7bbc0"
+            android:gravity="center"
+            android:scaleType="fitCenter">
+
+            <com.airbnb.lottie.LottieAnimationView
+                android:id="@+id/animation_view"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_centerHorizontal="true"
+                android:gravity="center"
+                app:lottie_autoPlay="true"
+                app:lottie_fileName="failed.json"
+                app:lottie_loop="false" />
+
+        </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/text_dialog"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ln_title"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="4dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="4dp"
+            android:layout_marginBottom="20dp"
+            android:gravity="center_horizontal"
+            android:text="TEXTO"
+            android:textColor="#ff000000"
+            android:textSize="18sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_dialog"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_below="@+id/text_dialog"
+                android:layout_marginRight="6dp"
+                android:layout_marginBottom="20dp"
+                android:layout_weight="1"
+                android:background="#f7bbc0"
+                android:gravity="center_vertical|center_horizontal"
+                android:text="OK"
+                android:textColor="#8b454b" />
+        </LinearLayout>
+    </LinearLayout>
+
+</android.support.v7.widget.CardView >

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_height="match_parent">
+
+
+    <com.airbnb.lottie.LottieAnimationView android:id="@+id/animation_view"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:layout_gravity="center"
+        app:lottie_autoPlay="true"
+        android:background="@android:color/transparent"
+        app:lottie_colorFilter="@color/black"
+        app:lottie_fileName="rocket-loading.json"
+        app:lottie_loop="true" />
+
+    <ImageView android:id="@+id/iv_loading"
+        android:layout_width="150dp"
+        android:visibility="gone"
+        android:layout_height="150dp"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:layout_gravity="center"
+        />
+
+    <ProgressBar android:id="@+id/pb"
+        android:layout_width="150dp"
+        android:visibility="gone"
+        android:layout_height="150dp"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:layout_gravity="center"
+        />
+
+    <ProgressBar android:id="@+id/pb_hor"
+        android:layout_width="1000dp"
+        android:minWidth="1000dp"
+        android:visibility="gone"
+        android:paddingRight="6dp"
+        android:layout_marginLeft="6dp"
+        android:layout_marginRight="6dp"
+        android:paddingLeft="6dp"
+        style="@android:style/Widget.Holo.Light.ProgressBar.Horizontal"
+        android:layout_height="150dp"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:layout_gravity="center"
+        />
+
+    <TextView
+        android:id="@+id/tv_text"
+        android:layout_marginBottom="3dp"
+        android:textSize="12dp"
+        android:text="Please Wait..."
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

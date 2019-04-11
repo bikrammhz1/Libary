@@ -1,7 +1,6 @@
-package com.rbmhz.mylibrary;
+package com.rbmhz.showdialog;
 
 import android.content.Context;
-import android.util.Log;
 import android.widget.Toast;
 
 public class Toasty {

@@ -1,10 +1,8 @@
 package com.rbmhz.myapplication;
 
-import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-import com.rbmhz.mylibrary.DialogAnimation;
 import com.rbmhz.mylibrary.LogDeb;
 
 public class MainActivity extends AppCompatActivity {
