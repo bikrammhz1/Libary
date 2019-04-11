@@ -1,4 +1,4 @@
-package com.rbmhz.showdialog;
+package com.rbmhz.mylibrary;
 
 import android.content.Context;
 import android.widget.Toast;

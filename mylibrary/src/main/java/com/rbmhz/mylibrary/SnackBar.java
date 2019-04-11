@@ -1,4 +1,4 @@
-package com.rbmhz.showdialog;
+package com.rbmhz.mylibrary;
 
 import android.app.Activity;
 import android.support.design.widget.Snackbar;

@@ -1,4 +1,4 @@
-package com.rbmhz.showdialog;
+package com.rbmhz.mylibrary;
 
 import android.app.Dialog;
 import android.content.Context;

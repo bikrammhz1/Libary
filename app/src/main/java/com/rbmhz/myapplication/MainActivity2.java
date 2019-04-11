@@ -3,6 +3,7 @@ package com.rbmhz.myapplication;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 
+import com.rbmhz.mylibrary.DialogAnimation;
 import com.rbmhz.mylibrary.LogDeb;
 
 public class MainActivity2 extends AppCompatActivity {
@@ -12,7 +13,7 @@ public class MainActivity2 extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        LogDeb.d("nepal");
+//        LogDeb.d("nepal");
 //        Toasty.ToastShort(this,"hello");
 //
 //        SnackBar.show(this,"LENGTH_LONG", Duration.LENGTH_LONG);
