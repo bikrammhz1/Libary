@@ -21,11 +21,11 @@ public class MainActivity2 extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         LogDeb.d(this,"nepal");
-        Toasty.ToastLong(this,"hello");
+        Toasty.ToastShort(this,"hello");
 
-//        SnackBar.show(this,"LENGTH_LONG", Duration.LENGTH_LONG);
-//        SnackBar.show(this,"LENGTH_SHORT", Duration.LENGTH_SHORT);
-//        SnackBar.show(this,"LENGTH_INDEFINITE", Duration.LENGTH_INDEFINITE);
+        SnackBar.show(this,"LENGTH_LONG", Duration.LENGTH_LONG);
+        SnackBar.show(this,"LENGTH_SHORT", Duration.LENGTH_SHORT);
+        SnackBar.show(this,"LENGTH_INDEFINITE", Duration.LENGTH_INDEFINITE);
 
 //        Drawable myDrawable = getResources().getDrawable(R.drawable.download);
 //        DialogAnimation.successDialog(this,true,"#3d3123","OKS", "ASDf");
