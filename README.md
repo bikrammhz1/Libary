@@ -13,7 +13,9 @@
 	        implementation 'com.github.bikrammhz1:Libary:Tag'
 	}
 	
-# Usage
+# Usag
+  implementation 'com.github.bikrammhz1:Libary:1.0.2'
+
 ## For Log
   LogDeb.d(this,"nepal");
   LogDeb.d("TAG","nepal");
