@@ -10,11 +10,10 @@
 # Step 2. Add the dependency
 
 	dependencies {
-	        implementation 'com.github.bikrammhz1:Libary:Tag'
+                implementation 'com.github.bikrammhz1:Libary:1.0.3'
 	}
 	
 # Usag
-  implementation 'com.github.bikrammhz1:Libary:1.0.2'
 
 ## For Log
   LogDeb.d(this,"nepal");
